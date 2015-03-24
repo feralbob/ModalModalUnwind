@@ -14,6 +14,8 @@
 		C461A84C1AC0DA8900743D09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C461A84B1AC0DA8900743D09 /* Images.xcassets */; };
 		C461A84F1AC0DA8900743D09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C461A84D1AC0DA8900743D09 /* LaunchScreen.xib */; };
 		C461A85B1AC0DA8900743D09 /* ModalModalUnwindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C461A85A1AC0DA8900743D09 /* ModalModalUnwindTests.m */; };
+		C461A8661AC0EF0700743D09 /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C461A8651AC0EF0700743D09 /* CustomNavigationViewController.m */; };
+		C461A8691AC0F13C00743D09 /* fadeAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = C461A8681AC0F13C00743D09 /* fadeAnimController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C461A8541AC0DA8900743D09 /* ModalModalUnwindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalModalUnwindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C461A8591AC0DA8900743D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C461A85A1AC0DA8900743D09 /* ModalModalUnwindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalModalUnwindTests.m; sourceTree = "<group>"; };
+		C461A8641AC0EF0700743D09 /* CustomNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
+		C461A8651AC0EF0700743D09 /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
+		C461A8671AC0F13C00743D09 /* fadeAnimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fadeAnimController.h; sourceTree = "<group>"; };
+		C461A8681AC0F13C00743D09 /* fadeAnimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fadeAnimController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				C461A84B1AC0DA8900743D09 /* Images.xcassets */,
 				C461A84D1AC0DA8900743D09 /* LaunchScreen.xib */,
 				C461A83E1AC0DA8900743D09 /* Supporting Files */,
+				C461A8641AC0EF0700743D09 /* CustomNavigationViewController.h */,
+				C461A8651AC0EF0700743D09 /* CustomNavigationViewController.m */,
+				C461A8671AC0F13C00743D09 /* fadeAnimController.h */,
+				C461A8681AC0F13C00743D09 /* fadeAnimController.m */,
 			);
 			path = ModalModalUnwind;
 			sourceTree = "<group>";
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C461A8471AC0DA8900743D09 /* ViewController.m in Sources */,
+				C461A8691AC0F13C00743D09 /* fadeAnimController.m in Sources */,
 				C461A8441AC0DA8900743D09 /* AppDelegate.m in Sources */,
+				C461A8661AC0EF0700743D09 /* CustomNavigationViewController.m in Sources */,
 				C461A8411AC0DA8900743D09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

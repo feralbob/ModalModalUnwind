@@ -14,14 +14,30 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)unwind:(UIStoryboardSegue*)segue
+{
+    NSLog(@"Unwind");
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+//-(UIStoryboardSegue*)segueForUnwindingToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController identifier:(NSString *)identifier
+//{
+//    return [UIStoryboardSegue segueWithIdentifier:identifier source:fromViewController destination:toViewController performHandler:^{
+//        UIView* superView = fromViewController.view.superview;
+//        UIView* fromView = fromViewController.view;
+//        UIView* toView = toViewController.view;
+//        
+//        //toView added to fromView.superview, fromView removed from its superview
+//        
+//        [UIView transitionFromView:fromView toView:toView duration:2 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
+//            [superView addSubview:fromView];
+//            [toViewController.presentedViewController dismissViewControllerAnimated:NO completion:^{
+//                [toViewController dismissViewControllerAnimated:NO completion:nil];
+//            }];
+//            
+//            //UIViewController* presenting = fromViewController.presentingViewController;
+//            //[fromViewController dismissViewControllerAnimated:NO completion:nil];
+//            //[presenting dismissViewControllerAnimated:NO completion:nil];
+//        }];
+//    }];
+//}
 @end
